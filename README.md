@@ -20,3 +20,12 @@ $env:OLLAMA_HOST="http://ollama-app:21434"
 ```
 ollama run qwen3.6:35b
 ```
+
+## Coding Agentとして使う場合
+1.VSCodeにRoo Codeをインストール して設定
+> [!NOTE]
+> RooCodeで指定するモデルは上記のコマンドで事前にダウンロードしておく必要がある
+
+
+qwen3系統:概ね動作。diffツールの呼び出しが不安定  
+qwen-coder:ツールの呼び出しがほとんど不可能
